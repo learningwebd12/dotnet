@@ -26,3 +26,4 @@ C:\Ganesh.net\dotnet\obj\Debug\net9.0\refint\first.dll
 C:\Ganesh.net\dotnet\obj\Debug\net9.0\first.pdb
 C:\Ganesh.net\dotnet\obj\Debug\net9.0\first.genruntimeconfig.cache
 C:\Ganesh.net\dotnet\obj\Debug\net9.0\ref\first.dll
+C:\Ganesh.net\dotnet\obj\Debug\net9.0\first.sourcelink.json
