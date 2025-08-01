@@ -1,29 +1,31 @@
-using System;
+// //base class virutal ra drive class override
 
-class Animal
-{
-    public virtual void MakeSound()
-    {
-        Console.WriteLine("animal make a sound");
-    }
-}
+// using System;
 
-class Dog : Animal
-{
-    public override void MakeSound()
-    {
-        Console.WriteLine("barking sound");
-    }
-}
+// public class Animal
+// {
+//     public virtual void Bark()
+//     {
+//         Console.WriteLine("Barking....");
+//     }
+// }
 
-class Program
-{
-    public static void Main()
-    {
-        Animal a1 = new Animal();
-        a1.MakeSound();
+// public class Dog : Animal
+// {
+//     public override void Bark()
+//     {
+//         Console.WriteLine("Meow Meow Meow Meow");
+//     }
+// }
 
-        Dog d1 = new Dog();
-        d1.MakeSound();
-    }
-}
+// class Program
+// {
+//     public static void Main()
+//     {
+//         Dog d1 = new Dog();
+//         d1.Bark();
+
+//         Animal a1 = new Animal();
+//         a1.Bark();
+//     }
+// }
