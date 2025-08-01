@@ -1,31 +1,31 @@
-using System;
+// using System;
 
-abstract class Animal
-{
-    public abstract void MakeSound();
+// abstract class Animal
+// {
+//     public abstract void MakeSound();
 
-    public void Sleep()
-    {
-        Console.WriteLine("Sleeping.....");
-    }
-}
+//     public void Sleep()
+//     {
+//         Console.WriteLine("Sleeping.....");
+//     }
+// }
 
-class Dog : Animal
-{
-    public override void MakeSound()
-    {
-        Console.WriteLine("Barking Sound");
-    }
-}
+// class Dog : Animal
+// {
+//     public override void MakeSound()
+//     {
+//         Console.WriteLine("Barking Sound");
+//     }
+// }
 
-class Program
-{
-    public static void Main()
-    {
+// class Program
+// {
+//     public static void Main()
+//     {
 
-        // we cannot make Animal object of abstract class
-        Dog d1 = new Dog();
-        d1.MakeSound();
-        d1.Sleep();
-    }
-}
+//         // we cannot make Animal object of abstract class
+//         Dog d1 = new Dog();
+//         d1.MakeSound();
+//         d1.Sleep();
+//     }
+// }
