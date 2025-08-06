@@ -26,3 +26,24 @@
 
 //     }
 // }
+
+//for each syntax
+
+
+// foreach (DataType variablename in arrayname) ;
+
+// using System;
+// class Program
+// {
+//     public static void Main()
+//     {
+//         int[,] number = { { 1, 2, 3 }, { 4, 5, 6 } };
+//         for (int i = 0; i < 2; i++)
+//         {
+//             for (int j = 0; j < 2; j++)
+//             {
+//                 Console.WriteLine(number[i, j]);
+//             }
+//         }
+//     }
+// }
