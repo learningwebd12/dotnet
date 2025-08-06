@@ -2,23 +2,14 @@
 
 // class Program
 // {
-//     public delegate void ShowMessage(string name);
-//     public delegate void Message();
+//     public delegate void Message(string name);
 
 //     public static void Main()
-
-
 //     {
-//         Message gan = delegate
+//         Message show = delegate (string n)
 //         {
-//             Console.WriteLine("this is anonymous without parameters");
+//             Console.WriteLine("Your name is" + n);
 //         };
-//         gan();
-
-//         ShowMessage show = delegate (string name)
-//         {
-//             Console.WriteLine("Hello" + name);
-//         };
-//         show("this is anonymous method");
+//         show("Ganesh");
 //     }
 // }

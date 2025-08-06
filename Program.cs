@@ -1,18 +1,19 @@
 ﻿// using System;
 
-// class MyClass
+// class Students
 // {
+//     private string name;
 
-//     string name;
-//     public void Ganesh()
+//     public string Name
 //     {
-//         Console.WriteLine("Enter Your Name");
-//         name = Console.ReadLine();
-
-//     }
-//     public void Show()
-//     {
-//         Console.WriteLine(name);
+//         get
+//         {
+//             return name;
+//         }
+//         set
+//         {
+//             name = value;
+//         }
 //     }
 // }
 
@@ -20,8 +21,8 @@
 // {
 //     public static void Main()
 //     {
-//         MyClass na = new MyClass();
-//         na.Ganesh();
-//         na.Show();
+//         Students s1 = new Students();
+//         s1.Name = "Ganesh";
+//         Console.WriteLine(s1.Name);
 //     }
 // }
